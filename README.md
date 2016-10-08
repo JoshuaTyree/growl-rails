@@ -55,6 +55,17 @@ def create
 end
 ```
 
+Render the flash messages in your layout
+
+HAML
+```haml
+= flash_notification_tag
+```
+
+ERB
+```erb
+<%= flash_notification_tag %>
+```
 
 ## Contributing
 
