@@ -22,16 +22,19 @@ Or install it yourself as:
 
 Require the growl assets in your javascript/css files.
 
+JavaScript
 ```javascript
 //= require growl
 ```
 
+CSS
 ```css
 /*
 *= require growl
 */
 ```
 
+SASS
 ```sass
 @import 'growl'
 ```
