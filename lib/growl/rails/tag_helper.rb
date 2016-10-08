@@ -1,6 +1,6 @@
 module Growl
   module Rails
-    module Helper
+    module TagHelper
 
       def flash_notification_tag
         jscript = []
@@ -10,7 +10,7 @@ module Growl
 
         javascript_tag jscript.join("\n")
       end
-      
+
     end
   end
 end
